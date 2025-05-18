@@ -6,6 +6,7 @@ eleccion_usuario = input("Elige piedra, papel o tijera: ").lower()
 
 if eleccion_usuario not in elecciones:
     print("Argumento invalido. Por favor, elige piedra, papel o tijera.")
+    sys.exit(1)
 else:
     eleccion_computadora = random.choice(elecciones)
     print(f"La elección de la computadora es: {eleccion_computadora}")
