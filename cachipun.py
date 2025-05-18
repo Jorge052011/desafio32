@@ -1,5 +1,5 @@
 import random
-
+import sys
 elecciones = ["piedra", "papel", "tijera"]
 
 eleccion_usuario = input("Elige piedra, papel o tijera: ").lower()
@@ -9,7 +9,7 @@ if eleccion_usuario not in elecciones:
 else:
     eleccion_computadora = random.choice(elecciones)
     print(f"La elección de la computadora es: {eleccion_computadora}")
-    
+
     if eleccion_usuario == eleccion_computadora:
         print("Empate")
 
