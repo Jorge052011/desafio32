@@ -12,12 +12,14 @@ else:
     print(f"\n La elección de la computadora es: {eleccion_computadora}")
 
     if eleccion_usuario == eleccion_computadora:
-        print("Empate")
+        print("\n --------Empate---------")
 
     elif (eleccion_usuario == "piedra" and eleccion_computadora == "tijera") or \
         (eleccion_usuario == "papel" and eleccion_computadora == "piedra") or \
         (eleccion_usuario == "tijera" and eleccion_computadora == "papel"):
-        print("***Ganaste***")
+        print("\n ***Ganaste***")
     else:
     
-        print("Perdiste!!!!!!")
+        print("\n ¡¡¡¡¡¡¡¡¡¡¡Perdiste!!!!!!")
+
+    
